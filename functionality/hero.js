@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function(){
         currentIndex = (currentIndex + 1) % slides.length
     }
 
-    setInterval(changeSlide, 2000)
+    setInterval(changeSlide, 3000)
 
 })
