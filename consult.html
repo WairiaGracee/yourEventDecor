@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Grace Decor Studio</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/consult.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/Simple_Aesthetic_Signature_Nail_Logo__1_-removebg-preview.png" alt="">
+            </div>
+            <div class="links">
+                <div class="show-menu" id="menu-display"><span>MEN</span>U</div>
+
+            <nav class="nav">
+                <i class="bi bi-x-lg hiddenMenu"></i>
+                <a href="#hero" class="bordered">HOME</a>
+                <a href="#services" class="bordered">SERVICES</a>
+                <a href="#gallery" class="bordered">GALLERY</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="consult-hero">
+        <div class="container">
+            <div class="client-img">
+                <img src="assets/satisfied-black-smiling-young-woman-glasses-wears-piercing-holds-modern-cell-phone-has-pleasant-conversation-together-with-unrecognizable-guy-who-sits-back-discuss-collaboration.jpg" alt="">
+            </div>
+
+            <div class="hero-desc">
+                <h1>Book a Consultation</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A numquam rem dolore facere nam, pariatur odit ea, iure repellendus maxime ut quasi excepturi!</p>
+            </div>
+
+            <div class="form-fill">
+                <form action="https://formspree.io/f/myzjzlzr" method="POST">
+                    <div class="occasion">
+                    <label for="occasion" class="block">OCCASION</label>
+                    <input type="text" name="occasion" id="occasion" placeholder="Wedding" required>
+                    </div>
+
+                        <div class="date-inputs">
+                            <div class="date-input">
+                            <label for="event" class="block">EVENT DATE</label>
+                            <input type="date" name="event" id="event" required>
+                            </div>
+                            <div class="date-input">
+                            <label for="Stime" class="block">START TIME</label>
+                            <input type="time" name="Stime" id="Stime" required>
+                            </div>
+                            <div class="date-input">
+                            <label for="Etime" class="block">END TIME</label>
+                            <input type="time" name="Etime" id="Etime" required>
+                        </div>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                        <input type="checkbox" name="flexible" value="flexible">
+                        I/WE HAVE FLEXIBLE DATES
+                        </label>
+                        <label>
+                        <input type="checkbox" name="flexible" value="flexible">
+                        I/WE HAVE FLEXIBLE HOURS
+                        </label><br>
+                    </div>
+
+                    <div class="guests">
+                    <div class="date-inputs">
+                        <div class="date-input">
+                        <label for="guests" class="block">GUESTS</label>
+                        <input type="text" name="guests" id="guests" required>
+                        </div>
+                        <div class="date-input">
+                        <label for="budget" class="block">BUDGET</label>
+                        <input type="text" name="budget" id="budget" required>
+                        </div>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                        <input type="checkbox" name="guestsno" value="flexible">
+                        TOTAL
+                        </label>
+                        <label>
+                        <input type="checkbox" name="guestsno" value="flexible">
+                        PER PERSON
+                        </label><br>
+                    </div>
+                    </div>
+
+                    <div class="occasion">
+                    <label for="contactname" class="block">CONTACT NAME</label>
+                    <input type="text" name="contactname" id="contactname" required>
+                    </div>
+
+                    <div class="info-inputs">
+                        <div class="info-input">
+                        <label for="company" class="block">COMPANY (OPTIONAL)</label>
+                        <input type="text" name="company" id="company">
+                        </div>
+                        <div class="info-input">
+                        <label for="industry" class="block">INDUSTRY (OPTIONAL)</label>
+                        <input type="text" name="industry" id="industry">
+                        </div>
+                        <div class="info-input">
+                        <label for="email" class="block">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="info-input">
+                        <label for="phone" class="block">PHONE</label>
+                        <input type="tel" name="phone" id="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="event-details">
+                    <label for="event-det" class="block">TELL US MORE ABOUT THE EVENT (OPTIONAL)</label>
+                    <!-- <input type="text" name="contactname" id="contactname" required> -->
+                    <textarea name="event-det" id="event-det" cols="30"></textarea>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+        <div class="footer-content">
+            <div class="desc-wrapper">
+            <div class="col1">
+                <div class="logo">
+                    <img src="assets/Simple_Aesthetic_Signature_Nail_Logo__1_-removebg-preview.png" alt="">
+                </div>
+                <p>
+                    DecArt Events is your one-stop solution. Talk of any type of decor: Home decor, Event (birthdays, weddings, birthday parties, dinner parties etc) decor
+                    , floral arrangements; DecArt Events has got you covered!
+                </p>
+            </div>
+            <div class="col2">
+                <div class="column">
+                <div class="col-cont">
+                    <h2>Company:</h2>
+                    <div class="links">
+                        <a href="#hero">HOME</a>
+                        <a href="#services">SERVICES</a>
+                        <a href="#gallery">GALLERY</a>
+                        <a href="#contact">CONTACT</a>
+                    </div>
+                </div>
+                </div>
+                <div class="column">
+                <div class="col-cont">
+                    <h2>Support:</h2>
+                <div class="links">
+                    <a href="#">HelpCenter</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">ContactUs</a>
+                </div>
+                </div>
+                </div>
+                <div class="column">
+                <div class="column3">
+                    <h2>Get In Touch:</h2>
+                    <p>1 McKenzie Pl, Yarrawonga NT 0830, Australia</p>
+                    <p><i class="bi bi-envelope"></i> : decartevents@gmail.com</p>
+                    <p><i class="bi bi-telephone-plus-fill"></i> : (+254) 113 234 567</p>
+                    <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="hor-rule"></div>
+            <div class="copyright">
+            <p>&copy; 2025 Grace Decor Studio. All rights reserved.</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="functionality/header.js"></script>
+    <script src="functionality/hero.js"></script>
+</body>
+</html>
