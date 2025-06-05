@@ -105,6 +105,13 @@ textarea{
     padding: 2px 0.3rem;
 }
 
+form button{
+    border: none;
+    background-color: #5b0031;
+    color: #f9f9f9;
+    border-radius: 50px;
+    padding: 1rem 1.6rem;
+}
 @media (min-width: 768px) {
     .consult-hero .container{
         padding: 10px 10%;
