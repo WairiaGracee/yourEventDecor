@@ -19,5 +19,6 @@ The website includes two main pages:
 
 With #yourEventDecor, professionals can manage client consultations more efficiently, improve communication, and provide a better customer experience—all from one centralized platform.
 
+Here is the link to the website: https://decart.netlify.app/
 
 
